@@ -167,6 +167,23 @@ li{
 
 /*------------------tree---------------*/
 
+.treep{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.42);
+}
+
+.treeq{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.42);
+}
+
 .tree{
     display: flex;
 	flex-direction: row;
