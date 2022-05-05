@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+}
+
+body{
+    background: rgb(252, 252, 252);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.42);
+    font-weight: bold;
+}
+
+.contener{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.contener2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background: rgb(255,0,138);
+    background: radial-gradient(circle, rgba(255,0,138,1) 0%, rgba(121,9,9,1) 44%, rgba(2,0,36,1) 100%);
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*------------------One---------------*/
+
+.one{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.photo{
+    background-image: url(img/arthurlefevre.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    -webkit-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7); 
+    box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7);
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+}
+
+.pone{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.42);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.blockqo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.42);
+    line-height: 25px;
+    background: #020024;
+    background: linear-gradient(121deg, #020024 0%, #790909 44%, #ff008a 100%);
+    border-radius: 25px 0px 25px 0px;
+    -webkit-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7); 
+    box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7);
+    margin: 10px;
+}
+
+li{
+    text-align: center;
+    margin: 0 auto;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+/*------------------two---------------*/
+
+.two{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+    height: 200px;
+}
+
+.twou{
+    background-color: beige;
+    width: 200px;
+    min-height: 50px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    -webkit-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7); 
+    box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7);
+    background: rgb(2,0,36);
+    background: linear-gradient(325deg, rgba(2,0,36,1) 37%, rgba(121,9,9,1) 69%, rgba(255,0,138,1) 100%);
+}
+
+.twod{
+    background-color: brown;
+    width: 200px;
+    min-height: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    -webkit-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7); 
+    box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7);
+    background: rgb(2,0,36);
+    background: linear-gradient(325deg, rgba(2,0,36,1) 37%, rgba(121,9,9,1) 69%, rgba(255,0,138,1) 100%);
+}
+
+.twot{
+    background-color: blue;
+    width: 200px;
+    min-height: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    -webkit-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7); 
+    box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7);
+    background: rgb(2,0,36);
+    background: linear-gradient(325deg, rgba(2,0,36,1) 37%, rgba(121,9,9,1) 69%, rgba(255,0,138,1) 100%);
+}
+
+/*------------------tree---------------*/
+
+.tree{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+    height: 500px;
+}
+
+.treeu{
+    background-color: beige;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    -webkit-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7); 
+    box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7);
+    background: rgb(2,0,36);
+    background: linear-gradient(325deg, rgba(2,0,36,1) 37%, rgba(121,9,9,1) 69%, rgba(255,0,138,1) 100%);
+}
+
+.treed{
+    background-color: brown;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    -webkit-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7); 
+    box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7);
+    background: rgb(2,0,36);
+    background: linear-gradient(325deg, rgba(2,0,36,1) 37%, rgba(121,9,9,1) 69%, rgba(255,0,138,1) 100%);
+}
+
+.treet{
+    background-color: blue;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    -webkit-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7); 
+    box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.7);
+    background: rgb(2,0,36);
+    background: linear-gradient(325deg, rgba(2,0,36,1) 37%, rgba(121,9,9,1) 69%, rgba(255,0,138,1) 100%);
+}
